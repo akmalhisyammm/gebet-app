@@ -1,0 +1,7 @@
+{
+  "name": "gebet-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
