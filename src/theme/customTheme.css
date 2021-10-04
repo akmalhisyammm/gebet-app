@@ -1,0 +1,17 @@
+:root {
+  --ion-font-family: 'Poppins', sans-serif;
+}
+
+ion-toast {
+  --max-width: 90%;
+  --border-radius: 8px;
+  top: -12px;
+  text-align: center;
+}
+
+ion-loading.loading {
+  --background: none;
+  --min-width: 100%;
+  --min-height: 100%;
+  --spinner-color: var(--ion-color-dark);
+}

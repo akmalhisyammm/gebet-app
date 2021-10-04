@@ -1,0 +1,36 @@
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+
+  .card {
+    max-width: 32rem;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(var(--ion-color-tertiary-rgb), 0.4);
+
+    .cardImage {
+      margin: 8px;
+      border: 3px solid var(--ion-color-secondary);
+    }
+
+    .cardHeader {
+      padding: 8px 18px 12px;
+
+      .cardHeaderTitle {
+        margin-bottom: 8px;
+      }
+    }
+
+    .routerLinkWrapper {
+      margin: 0 auto;
+
+      .routerLink {
+        color: var(--ion-color-secondary);
+        margin: 0 8px;
+
+        .icon {
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+}
