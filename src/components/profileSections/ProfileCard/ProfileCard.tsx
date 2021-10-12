@@ -33,25 +33,25 @@ const ProfileCard: React.FC = () => (
             <IonCardSubtitle>00000040027</IonCardSubtitle>
           </IonCardHeader>
           <IonCardContent>
-            <div className={styles.routerLinkWrapper}>
+            <div className={styles.socialMediaWrapper}>
               <IonRouterLink
                 href="https://github.com/akmalhisyammm"
                 target="_blank"
-                className={styles.routerLink}
+                className={styles.socialMedia}
               >
                 <IonIcon icon={logoGithub} className={styles.icon} />
               </IonRouterLink>
               <IonRouterLink
                 href="https://linkedin.com/in/muhammadakmalhisyam/"
                 target="_blank"
-                className={styles.routerLink}
+                className={styles.socialMedia}
               >
                 <IonIcon icon={logoLinkedin} className={styles.icon} />
               </IonRouterLink>
               <IonRouterLink
                 href="https://instagram.com/akmalhisyam1/"
                 target="_blank"
-                className={styles.routerLink}
+                className={styles.socialMedia}
               >
                 <IonIcon icon={logoInstagram} className={styles.icon} />
               </IonRouterLink>

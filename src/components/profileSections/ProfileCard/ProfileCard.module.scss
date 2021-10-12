@@ -20,15 +20,19 @@
       }
     }
 
-    .routerLinkWrapper {
+    .socialMediaWrapper {
       margin: 0 auto;
 
-      .routerLink {
+      .socialMedia {
         color: var(--ion-color-secondary);
         margin: 0 8px;
 
         .icon {
           font-size: 1.5em;
+        }
+
+        &:hover {
+          color: var(--ion-color-secondary-shade);
         }
       }
     }
