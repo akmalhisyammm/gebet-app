@@ -13,5 +13,5 @@ ion-loading.loading {
   --background: none;
   --min-width: 100%;
   --min-height: 100%;
-  --spinner-color: var(--ion-color-dark);
+  --spinner-color: #ffffff;
 }
